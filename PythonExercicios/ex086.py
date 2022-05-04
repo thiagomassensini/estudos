@@ -5,6 +5,6 @@ for x in range(0, 3):
 print('-=' *30)
 for i in range(0, 3):
     for j in range(0, 3):
-        print(f'[ {matrix[i][j]} ]', end='')
+        print(f'[ {matrix[i][j]:^5} ]', end='')
     print('')
 

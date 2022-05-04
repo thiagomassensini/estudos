@@ -1,4 +1,4 @@
-lista = [], []
+lista = [[], []]
 for i in range(0, 7):
     num = int(input(f'Digite o {i+1}o. valor: '))
     if num % 2 == 0:

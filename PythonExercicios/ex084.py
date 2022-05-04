@@ -1,10 +1,13 @@
-lista1 = ['', 0]
+#lista1 = ['', 0]
+lista1 = []
 lista2 = []
 cont = maior = menor = 0
 while True:
     cont += 1
-    lista1[0] = str(input('Nome: '))
-    lista1[1] = int(input('Peso: '))
+    #lista1[0] = str(input('Nome: '))
+    lista1.append(str(input('Nome: ')))
+    #lista1[1] = int(input('Peso: '))
+    lista1.append(str(input('Peso: ')))
     lista2.append(lista1[:])
     if cont == 1:
         maior = menor = lista1[1]

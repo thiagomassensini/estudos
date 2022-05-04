@@ -1,0 +1,10 @@
+from random import randint
+num1 = randint(0, 5)
+print('-=-' * 20)
+print('Vou pensar em um número entre 0 e 5. Tente adivinhar...')
+print('-=-' * 20)
+num2 = int(input('Em que número pensei? '))
+print('-=-' * 20)
+print('Acertou' if num1 == num2 else 'Errou')
+print('Eu escolhi o numero {}'.format(num1))
+print('-=-' * 20)
